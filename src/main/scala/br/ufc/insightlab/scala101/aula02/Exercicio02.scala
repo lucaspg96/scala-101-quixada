@@ -10,20 +10,15 @@ object Exercicio02 extends App{
   type Set = Int => Boolean
 
   object Operador{
-    def conjuntoUnitario(n: Int): Set =
-      x => x == n
+    def conjuntoUnitario(n: Int): Set = ???
 
-    def uniao(s: Set, t: Set): Set =
-      x => s(x) || t(x)
+    def uniao(s: Set, t: Set): Set = ???
 
-    def interseccao(s: Set, t: Set): Set =
-      x => s(x) && t(x)
+    def interseccao(s: Set, t: Set): Set = ???
 
-    def diferenca(s: Set, t: Set): Set =
-      x => s(x) && !t(x)
+    def diferenca(s: Set, t: Set): Set = ???
 
-    def complemento(s: Set): Set =
-      x => !s(x)
+    def complemento(s: Set): Set = ???
   }
 
 
